@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "DEVember",
-    "slug": "DEVember",
+    "slug": "devember",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vince101.devember"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vince101.devember"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "25bbbdc5-89a5-413f-9246-2a0aa1f977e1"
+      }
+    },
+    "owner": "vince101"
   }
 }
